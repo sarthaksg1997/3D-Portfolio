@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
+  // The react-tilt library provides a Tilt component that adds a parallax tilt effect to its child components. This effect creates a visually appealing tilt or 3D-like movement as the user interacts with the component.
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
