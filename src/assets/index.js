@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import cv from "./Sarthak_Resume.pdf";
+import gmail from "./Gmail.png";
+import twitter from "./twitter.png";
+import linkedin from "./linkedin.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -61,4 +64,7 @@ export {
   jobit,
   tripguide,
   cv,
+  gmail,
+  linkedin,
+  twitter,
 };

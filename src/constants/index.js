@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  linkedin,
+  gmail,
+  twitter,
 } from "../assets";
 
 export const navLinks = [
@@ -258,4 +261,29 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const accounts = [
+  {
+    name: "Linkedin",
+    url: "https://www.linkedin.com/in/sarthak-gupta-b008a9180/",
+    icon: linkedin,
+  },
+  {
+    name: "Gmail",
+    url: "https://mail.google.com/mail/?view=cm&to=sarthakg662@gmail.com",
+    icon: gmail,
+  },
+  {
+    name: "Twitter",
+    url: "",
+    icon: twitter,
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  accounts,
+};
