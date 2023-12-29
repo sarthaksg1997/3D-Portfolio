@@ -34,7 +34,6 @@ const Ball = (props) => {
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
           map={decal}
           flatShading
         />
@@ -47,11 +46,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon }) => {
   return (
     // Canvas component is used to create/render a 3D scene.
-    <Canvas
-      frameloop="demand"
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       {/* Using the <Suspense> component to handle the asynchronous loading, with a fallback loader (<CanvasLoader />) displayed during the loading process. */}
       <Suspense fallback={<CanvasLoader />}>
         {/* Integrating the <OrbitControls> component to allow user interaction for orbiting around the 3D scene. Zooming is disabled (enableZoom={false}). */}
