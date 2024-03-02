@@ -14,14 +14,10 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  deloitte,
+  netflix,
+  portfolio,
+  expense,
   threejs,
   linkedin,
   gmail,
@@ -49,15 +45,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "NodeJS Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Open Source Contributor",
     icon: creator,
   },
 ];
@@ -116,49 +112,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Deloitte USI",
+    icon: deloitte,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -197,67 +154,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Netflix Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "🎬 Lights, Camera, React! 🍿 Built a Netflix clone from scratch using React and the TMDB API. Seamlessly integrated with TMDB API to fetch real-time movie and TV show data. Implemented a responsive UI for optimal viewing across devices. 🎥",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TMDB_API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React-youtube",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://github.com/sarthaksg1997/Netflix_Clone",
   },
   {
-    name: "Job IT",
+    name: "Expense Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "📊 Expense Tracker App 📉 MERN stack wizard! Crafted an intuitive UI with React, chart.js, Context-API, and Material-UI for seamless interaction. Securely manage income/expenses with JWT authentication on Node.js, Express, and MongoDB.  💼💰 ",
     tags: [
       {
-        name: "react",
+        name: "MERNStack",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Material-UI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Chart.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: expense,
+    source_code_link: "https://github.com/sarthaksg1997/Expense_tracker_deploy",
   },
   {
-    name: "Trip Guide",
+    name: "3D Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "🚀 Step into my 3D portfolio world!🌐 Leveraged React, Three.js, framer-motion, and Tailwind CSS to craft an immersive and dynamic showcase. Explore smooth animations, and responsive design for an unforgettable browsing experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ThreeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/sarthaksg1997/3D-Portfolio",
   },
 ];
 
@@ -274,7 +231,7 @@ const accounts = [
   },
   {
     name: "Twitter",
-    url: "",
+    url: "https://x.com/sarthakg26?t=cC3m2beMb2hsWtcLA0krBw&s=08",
     icon: twitter,
   },
 ];
