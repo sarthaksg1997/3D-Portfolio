@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import website from "./website-logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import cv from "./Sarthak_Resume.pdf";
@@ -27,10 +28,10 @@ import threejs from "./tech/threejs.svg";
 
 import deloitte from "./company/Deloitte-Logo-700x394.png";
 
-import netflix from "./Netflix-img.avif";
+import netflix from "./Netflix-img.jpg";
 import portfolio from "./portfolio.png";
 import jobit from "./jobit.png";
-import expense from "./expense-tracker.webp";
+import expense from "./expense-tracker.png";
 
 export {
   logo,
@@ -38,6 +39,7 @@ export {
   creator,
   mobile,
   web,
+  website,
   github,
   menu,
   close,

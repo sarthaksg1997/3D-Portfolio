@@ -173,6 +173,7 @@ const projects = [
     ],
     image: netflix,
     source_code_link: "https://github.com/sarthaksg1997/Netflix_Clone",
+    live_app_link: "https://netflix-clone-31b8f.web.app/",
   },
   {
     name: "Expense Tracker",
@@ -194,6 +195,7 @@ const projects = [
     ],
     image: expense,
     source_code_link: "https://github.com/sarthaksg1997/Expense_tracker_deploy",
+    live_app_link: "https://prickly-deer-neckerchief.cyclic.app/login",
   },
   {
     name: "3D Portfolio",
@@ -215,6 +217,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/sarthaksg1997/3D-Portfolio",
+    live_app_link: "https://3d-portfolio-sarthaksg1997s-projects.vercel.app/",
   },
 ];
 
