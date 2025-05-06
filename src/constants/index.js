@@ -12,6 +12,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  angular,
   git,
   figma,
   deloitte,
@@ -41,20 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "React Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "NodeJS Developer",
     icon: mobile,
   },
   {
-    title: "NodeJS Developer",
+    title: "Angular Developer",
     icon: backend,
-  },
-  {
-    title: "Open Source Contributor",
-    icon: creator,
   },
 ];
 
@@ -92,6 +89,10 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -111,15 +112,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "MERN Stack Developer",
     company_name: "Deloitte USI",
     icon: deloitte,
     iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    date: "Jan 2022 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining Year planning application using MERN stack and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Leading a frontend team of four developers and successfully migrating authentication systems from ADAL to MSAL.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Angular and .Net Developer",
+    company_name: "Deloitte USI",
+    icon: deloitte,
+    iconBg: "#383E56",
+    date: "Aug 2024 - Present",
+    points: [
+      "Developing and maintaining Audit application using Angular , .Net and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Contributing to the project by leveraging expertise in BLEM JSON templates to support and guide team members in implementation and issue resolution",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

@@ -48,12 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with over 2 years of industry
-        experience in crafting responsive and interactive web applications.
-        Proficient in JavaScript, TypeScript and React along with foundational
-        knowledge of back-end technologies including Node.js and MongoDB.
-        Passionate about creating user-friendly interfaces and delivering
-        high-quality solutions.
+        Results-driven Software Engineer with 3+ years of experience at Deloitte USI , specializing in full-stack web development. Over 2 years of hands-on experience in the MERN stack, including leading a frontend team of four developers and successfully migrating authentication systems from ADAL to MSAL . Currently working on Audit application development using Angular and .NET for the past 8 months. Strong grasp of software development principles and best practices, with a proven ability to adapt quickly to new frameworks and technologies.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
